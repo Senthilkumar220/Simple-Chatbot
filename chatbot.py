@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit-chat import message
+from streamlit_chat import message
 import os
 from langchain.agents import create_pandas_dataframe_agent
 from langchain.llms import OpenAI
